@@ -1,6 +1,6 @@
 Netflix Content Analysis & Machine Learning Project
 Overview:
-This project explores the Netflix Movies and TV Shows dataset, performing data cleaning, exploratory data analysis (EDA), and machine learning to understand content trends and predict content types. The analysis aims to uncover insights such as content growth over time, genre distribution, and factors influencing whether a title is a Movie or TV Show.
+This project examines the Netflix Movies and TV Shows dataset, involving data cleaning, exploratory data analysis (EDA), and machine learning to identify content trends and predict content types. The study aims to uncover insights such as content growth over time, genre distribution, and factors influencing whether a title is a Movie or TV Show.
 
 Project Objectives:
 Data Cleaning — Handle missing values, parse dates, and standardize duration formats.
@@ -26,23 +26,6 @@ Data Handling	pandas, numpy
 Visualization: matplotlib, seaborn, plotly
 Machine Learning	scikit-learn
 Environment	Jupyter Notebook
-
-📁 Project Structure
-Netflix-Analysis/
-│
-├── data/
-│   └── netflix_titles.csv
-│
-├── notebooks/
-│   └── 01_data_cleaning_and_eda.ipynb
-│   └── 02_model_training_and_evaluation.ipynb
-│
-├── visuals/
-│   └── confusion_matrix_plotly.html
-│   └── content_growth_plot.html
-│
-├── README.md
-└── requirements.txt
 
 Author:
 Chukwuemeka Eugene Obiyo
