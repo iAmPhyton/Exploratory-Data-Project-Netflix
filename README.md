@@ -7,6 +7,7 @@ Data Cleaning — Handle missing values, parse dates, and standardize duration f
 Exploratory Data Analysis (EDA) — Visualize trends such as content growth by year, ratings, and country distribution.
 Feature Engineering — Extract key features from date and text fields (e.g., release year, duration, and type).
 Machine Learning Model — Train a classification model to predict whether a title is a Movie or a TV Show.
+
 Visualization — Used Plotly for a rich, interactive dashboard and confusion matrix visualization with performance metrics.
 Dataset Source: Netflix Titles Dataset on Kaggle
 
