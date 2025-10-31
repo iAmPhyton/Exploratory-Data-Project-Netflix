@@ -150,6 +150,7 @@ neteda_ml['duration'] = neteda_ml['duration_clean']
 neteda_ml = neteda_ml.drop(columns=['duration_clean'])
 
 #cleaning 'duration'
+#preparation of training models
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer
@@ -157,6 +158,9 @@ from sklearn.pipeline import Pipeline
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
+from sklearn.metrics import confusion_matrix, classification_report
+import plotly.figure_factory as ff 
+import plotly.graph_objects as go 
 
 def clean_duration(x):
     if pd.isnull(x):
@@ -216,16 +220,13 @@ model = Pipeline([
 model.fit(X_train, y_train)
 
 #checking if the models got trained
-from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import accuracy_score
 
 y_pred = model.predict(X_test)
 print("Model trained successfully!")
 print("Accuracy:", round(accuracy_score(y_test, y_pred), 3))
 print("\nClassification Report:\n", classification_report(y_test, y_pred, target_names=label_encoder.classes_))
 
-from sklearn.metrics import confusion_matrix, classification_report
-import plotly.figure_factory as ff
-import plotly.graph_objects as go
 #computing confusion matrix
 cm = confusion_matrix(y_test, y_pred)
 labels = sorted(y_test.unique())
@@ -292,3 +293,4 @@ fig.update_layout(
 )
 
 fig.show()
+
