@@ -29,7 +29,6 @@ Machine Learning	scikit-learn
 Environment	Jupyter Notebook
 
 Author:
-Chukwuemeka Eugene Obiyo
-
-Data Science | Machine Learning | Visualization Enthusiast
-praise609@gmail.com
+- Chukwuemeka Eugene Obiyo
+- Data Science | Machine Learning |
+- praise609@gmail.com 
