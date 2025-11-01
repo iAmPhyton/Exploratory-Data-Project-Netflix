@@ -30,5 +30,5 @@ Environment	Jupyter Notebook
 
 Author:
 - Chukwuemeka Eugene Obiyo
-- Data Science | Machine Learning |
+- Data Scientist | Machine Learning Engineer
 - praise609@gmail.com 
