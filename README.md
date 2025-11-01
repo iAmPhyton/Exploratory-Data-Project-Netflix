@@ -21,12 +21,11 @@ Machine Learning Implementation Model:
 Random Forest Classifier
 
 Tech Stack:
-Category	Tools / Libraries
-Language	Python 3.x
-Data Handling	pandas, numpy
-Visualization: matplotlib, seaborn, plotly
-Machine Learning	scikit-learn
-Environment	Jupyter Notebook
+- Language: Python 3.10+
+- Data Handling:	pandas, numpy
+- Visualization: matplotlib, seaborn, plotly
+- Machine Learning: scikit-learn
+- Environment:	Jupyter Notebook
 
 Author:
 - Chukwuemeka Eugene Obiyo
